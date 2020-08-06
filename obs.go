@@ -10,7 +10,7 @@ import (
 var obsDriver = &OBS{}
 
 type OBS struct {
-	Client obs.ObsClient
+	Client *obs.ObsClient
 	Cfg    ObsConfig
 }
 
@@ -20,7 +20,7 @@ func (o *OBS) Init(cfg interface{}) error {
 		if err != nil {
 			return err
 		}
-		o.Client = *client
+		o.Client = client
 		o.Cfg = config
 		return nil
 	}
