@@ -2,7 +2,7 @@
 
 Cloudtroe is an integrated object storage package that implements obs (Huawei cloud storage), cos (Tencent cloud storage), oss (Ali cloud storage), and ministore related interfaces. About ministore you can visit the official [websiteMinio](https://docs.min.io/cn)
 
-cloudstroe 是一个集成的对象存储包，实现了obs(华为云存储),cos(腾讯云存储),oss(阿里云存储),ministore相关接口。关于ministore你可以访问官网
+cloudstroe 是一个集成的对象存储包，实现了obs(华为云存储),cos(腾讯云存储),oss(阿里云存储),ministore相关接口。关于ministore你可以访问[官网](https://docs.min.io/cn)
 
 ## Getting started
 
